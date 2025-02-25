@@ -1,0 +1,5 @@
+path: C:/Users/madhu/Documents/lbw/LBW-Review-System/dataset # Dataset ka path
+train: images/train     # Training images ka path
+val: images/val         # Validation images ka path
+nc: 4                   # Number of classes
+names: ['ball', 'batsman', 'stumps', 'pitch']  # Class names

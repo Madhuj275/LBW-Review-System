@@ -1,0 +1,29 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore YOLO training runs
+runs/
+
+# Ignore uploaded videos
+uploads/
+
+# Ignore dataset images and labels (if not needed in repo)
+dataset/images/
+dataset/labels/
+dataset/lbw-dataset/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore trained models (if not needed in repo)
+models/
